@@ -40,12 +40,12 @@ body, html {
     display: flex;
     flex-direction: column;
     width: 100%;
-    overflow-y: auto; /* Permite scroll si hay muchos contactos */
+    overflow-y: auto; 
 }
 
 .contacto {
     display: flex;
-    align-items: center; /* Alinea verticalmente la imagen y la info */
+    align-items: center; 
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -57,11 +57,11 @@ body, html {
 }
 
 .contacto:hover {
-    background-color: #f7f7f7; /* Cambio de color al pasar el ratón */
+    background-color: #f7f7f7; 
 }
 
 .contacto img {
-    width: 50px; /* Ajusta según necesidad */
+    width: 50px; 
     height: 50px;
     border-radius: 50%;
     margin-right: 10px;
@@ -75,8 +75,8 @@ body, html {
     margin-bottom: 20px;
     cursor: pointer;
     font-size: 16px;
-    width: 80%; /* Ajusta el ancho del botón a la columna de contactos */
-    align-self: center; /* Centra el botón en la columna */
+    width: 80%; 
+    align-self: center; 
 }
 
 .seccion-principal {
@@ -123,18 +123,18 @@ body, html {
 }
 
 .info-contacto {
-    flex-grow: 1; /* Permite que el contenedor de texto ocupe el espacio restante */
+    flex-grow: 1; 
     display: flex;
-    flex-direction: column; /* Organiza el contenido en columna */
+    flex-direction: column; 
 }
 
 .nombre-contacto {
-    font-weight: bold; /* Opcional: Resalta el nombre */
-    margin-bottom: 5px; /* Espacio entre el nombre y el mensaje */
+    font-weight: bold; 
+    margin-bottom: 5px; 
 }
 
 .fas.fa-envelope {
-    align-self: flex-end; /* Alinea el ícono de mensaje no leído al final de la info */
-    margin-left: auto; /* Empuja el ícono a la derecha */
-    margin-bottom: 5px; /* Espacio entre el ícono y el mensaje */
+    align-self: flex-end; 
+    margin-left: auto; 
+    margin-bottom: 5px; 
 }
